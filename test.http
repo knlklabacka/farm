@@ -1,11 +1,11 @@
-#POST http://192.168.1.45/car HTTP/1.1
-#content-type: application/json
-#
-#{
-#    "name": "sample",
-#    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
-#}
+###
+POST http://localhost:8000/cars
+Content-Type: application/x-www-form-urlencoded
+
+brand=FIAT&model=500&year=2015
 
 
-
+###
 GET http://localhost:8000/cars/price?min_price=2000&max_price=4000
+
+
