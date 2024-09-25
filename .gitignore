@@ -1,3 +1,4 @@
 Full-Stack-FastAPI-React-and-MongoDB-main/*
 .venv
 .idea
+__pycache__
