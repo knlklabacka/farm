@@ -8,4 +8,8 @@ brand=FIAT&model=500&year=2015
 ###
 GET http://localhost:8000/cars/price?min_price=2000&max_price=4000
 
+###
+POST http://localhost:8000/carsmodel
+Content-Type: application/json
 
+{"brand":"FIAT","model":"500","year":2028}
